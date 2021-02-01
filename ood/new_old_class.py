@@ -1,3 +1,4 @@
+# 以下内容在python3中不存在，均为新式类
 # 旧式类 ：没有指定任何父类
 # 在Python2.2版本之前，所有的类都是旧式类
 class Person():
@@ -27,3 +28,5 @@ print(s1.name)
 
 print(type(s1))
 print(s1.__class__)
+
+
