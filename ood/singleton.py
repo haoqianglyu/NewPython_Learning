@@ -1,5 +1,6 @@
 # 单例设计模式，某个类整个程序运行期间最多只能有一个对象被创建
 
+
 class User(object):
     # 私有属性
     __instance = None
