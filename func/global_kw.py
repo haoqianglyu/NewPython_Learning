@@ -1,5 +1,6 @@
 # global关键字：如果想在函数或者某个代码块中修改全局变量，那么应该使用global关键字
 username = "leo"
+print(username)
 def greet():
     global username
     username = "william"

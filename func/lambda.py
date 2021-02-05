@@ -18,6 +18,7 @@ persons = [
 # def my_cmp(x):
 #     return x['age']
 
+
 persons.sort(key=lambda x: x['age'])
 print(persons)
 

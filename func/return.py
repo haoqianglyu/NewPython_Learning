@@ -16,5 +16,6 @@ def greet(username,age):
     return username,age
 value = greet('leo',20)
 username,age = greet('leo',20)
+print(value)
 print(type(value))
 

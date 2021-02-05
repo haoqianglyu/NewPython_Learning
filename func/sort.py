@@ -36,3 +36,4 @@ print(persons)
 
 # sorted不更改原来的顺序，而是返回一个排序后的新的列表，sort会改变原来的顺序
 new_persons = sorted(persons,key=cmp_to_key(cmp))
+
